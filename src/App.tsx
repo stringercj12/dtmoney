@@ -1,11 +1,16 @@
 import React from 'react';
 
 import "./App.css";
+import { Dashboard } from './components/Dashboard';
+import { Header } from './components/Header';
+import { GlobalSyle } from './styles/global';
 
 export function App() {
   return (
-    <div className="App">
-      <h1 className="title">Hello word</h1>
-    </div>
+    <>
+      <Header />
+      <Dashboard />
+      <GlobalSyle />
+    </>
   );
 }
